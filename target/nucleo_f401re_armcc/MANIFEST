@@ -1,0 +1,14 @@
+PACKAGE asp_arch_arm_m_gcc
+
+Makefile.target
+MANIFEST
+stm32f401re.scat
+target.tf
+target_asm.inc
+target_check.tf
+target_test.h
+target_user.txt
+uvision/asp.uvprojx
+uvision/asp_proj.uvmpw
+uvision/cfg1_out.uvprojx
+uvision/libkernel.uvprojx

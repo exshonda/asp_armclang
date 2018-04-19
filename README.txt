@@ -1,5 +1,5 @@
 
-	TOPPERS/ASP Kernel（Release 1.9.3）
+	TOPPERS/ASP Kernel（Release 1.9.3）ARMCLANG
 		Toyohashi Open Platform for Embedded Real-Time Systems/
 		Advanced Standard Profile Kernel
 

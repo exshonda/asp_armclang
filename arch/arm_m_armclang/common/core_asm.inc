@@ -73,4 +73,9 @@
 #define BSS_START   Image$$RAM$$ZI$$Base
 #define BSS_END     Image$$RAM$$ZI$$Limit 
 
+/*
+ *  スタックの8byteアライメント要求
+ */
+#define PRESERVE8 .eabi_attribute Tag_ABI_align_preserved, 1
+
 #endif /* TOPPERS_CORE_ASM_INC */

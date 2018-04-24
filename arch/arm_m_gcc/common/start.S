@@ -56,6 +56,7 @@
  */
 	ATEXT
 	ABALIGN(4)
+	PRESERVE8
 	ATHUMB(_start)
 	AGLOBAL(_start) 
 ALABEL(_start)

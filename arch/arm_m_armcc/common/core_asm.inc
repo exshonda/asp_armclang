@@ -63,5 +63,4 @@
 #define BSS_START   |Image$$RAM$$ZI$$Base| 
 #define BSS_END     |Image$$RAM$$ZI$$Limit| 
 
-
 #endif /* TOPPERS_CORE_ASM_INC */

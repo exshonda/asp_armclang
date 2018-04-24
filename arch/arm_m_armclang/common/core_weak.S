@@ -44,6 +44,7 @@
  */
 	.text
 	.balign 4
+	PRESERVE8
 	__athumb software_init_hook
 	.global  software_init_hook
 	.weak    software_init_hook

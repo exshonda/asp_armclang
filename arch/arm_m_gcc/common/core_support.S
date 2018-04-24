@@ -57,6 +57,7 @@
  */
 	ATEXT
 	ABALIGN(4)
+	PRESERVE8
 	ATHUMB(dispatch)
 	AGLOBAL(dispatch)
 ALABEL(dispatch)
@@ -124,8 +125,9 @@ ALABEL(dispatch_r_1)              /* タスクへのcall_textnから戻る */
  *  割込みエントリと処理の内容は同等だが，ログの種類が異なるため，
  *  分けている．
  */
-	ABALIGN(4)
 	ATEXT
+	ABALIGN(4)
+	PRESERVE8
 	ATHUMB(core_exc_entry)
 	AGLOBAL(core_exc_entry)
 ALABEL(core_exc_entry)
@@ -786,8 +788,9 @@ ALABEL(start_r)
 /*
  *  微少時間待ち
  */
-	ABALIGN(4)
 	ATEXT
+	ABALIGN(4)
+	PRESERVE8
 	ATHUMB(sil_dly_nse)
 	AGLOBAL(sil_dly_nse)
 ALABEL(sil_dly_nse)

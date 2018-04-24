@@ -73,4 +73,9 @@
 #define BSS_START   __bss_start
 #define BSS_END     __bss_end
 
+/*
+ *  スタックの8byteアライメント要求
+ */
+#define PRESERVE8 
+
 #endif /* TOPPERS_CORE_ASM_INC */

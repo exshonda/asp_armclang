@@ -83,7 +83,7 @@
             <RunUserProg1>1</RunUserProg1>
             <RunUserProg2>1</RunUserProg2>
             <UserProg1Name>fromelf --m32combined asp.axf --output=asp.srec</UserProg1Name>
-            <UserProg2Name>C:\home\TOPPERS\ASP\asp_1.9.3_utf8\target\nucleo_f401re_armclang\uvision\asp-cfg_pass3.bat</UserProg2Name>
+            <UserProg2Name>asp-cfg_pass3.bat</UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
             <nStopA1X>0</nStopA1X>

@@ -10,7 +10,7 @@
       <TargetName>cfg1_out</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>6070000::V6.7::.\ARMCLANG</pCCUsed>
+      <pCCUsed>6090000::V6.9::.\ARMCLANG</pCCUsed>
       <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -324,6 +324,7 @@
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>0</uC99>
+            <uGnu>0</uGnu>
             <useXO>0</useXO>
             <v6Lang>0</v6Lang>
             <v6LangP>0</v6LangP>
@@ -370,7 +371,7 @@
             <ScatterFile>..\..\..\target\nucleo_f401re_armcc\stm32f401re.scat</ScatterFile>
             <IncludeLibs></IncludeLibs>
             <IncludeLibsPath></IncludeLibsPath>
-            <Misc>--diag_style=gnu --datacompressor=off --symdefs=cfg1_out.syms --no_remove</Misc>
+            <Misc>--diag_style=gnu --datacompressor=off --symdefs=cfg1_out.syms --no_remove --entry=_kernel__start</Misc>
             <LinkerInputFile></LinkerInputFile>
             <DisabledWarnings></DisabledWarnings>
           </LDads>
